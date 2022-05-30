@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-export const BASE_URL = 'http://hn.algolia.com/api/v1'
+export const BASE_URL = 'https://hn.algolia.com/api/v1'
 
 const instance = axios.create({
   baseURL: BASE_URL,
